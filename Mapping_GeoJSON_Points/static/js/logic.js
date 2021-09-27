@@ -81,15 +81,16 @@ let airportData = "https://raw.githubusercontent.com/AKumar1-lab/Mapping_Earthqu
 
     // Grabbing our GeoJSON data.
     d3.json(airportData).then(function (data) {
-    console.log(data);
+        console.log(data);
     // Creating a GeoJSON layer with the retrieved data.
         L.geoJson(data).addTo(map);
-});
 
-        L.geoJson(airportData, {
+        L.geoJson(data, {
         onEachFeature: function (feature, layer) {
         console.log(data);
-        layer.bindPopup("<h3>" + "Airport Code" + ":" + feature.properties.faa +
-        "</h3><hr><p>" + "<h3>" + "Airport Name" + ":" + feature.properties.name + "</h3>" + "</p>");
+        layer.bindPopup("<h3> Airport Code:" + feature.properties.faa +
+        "</h3><hr><p>" + "<h3> Airport Name:" + feature.properties.name + "</h3>" + "</p>");
         }
-}).addTo(map);
+})
+.addTo(map);
+});
