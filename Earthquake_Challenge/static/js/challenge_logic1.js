@@ -149,9 +149,8 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     weight: 2
       })
       .addTo(tetonicPlates);
-
+// Then we add the Tetonic Plates layer to our map.
       tetonicPlates.addTo(map);
 });
-  // Then we add the Tetonic Plates layer to our map.
   
 });
