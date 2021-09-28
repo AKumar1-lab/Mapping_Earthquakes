@@ -25,6 +25,6 @@ Basil and Sadhana like how you created your earthquake map with two different ma
 
 ## Deliverables
 
-* Deliverable 1
-* Deliverable 2
-* Deliverable 3
+* Deliverable 1: Add Tectonic Plate Data
+* Deliverable 2: Add Major Earthquake Data
+* Deliverable 3: Add an Additional Map
