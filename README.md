@@ -1,18 +1,21 @@
 ## Mapping_Earthquakes
-Module 13 - Mapping Earthquakes with JSON and APIs
+Module 13 - Mapping Earthquakes with JS and APIs
 
 Completed by Angela Kumar
 
 ## Overview
 
+Use JavaScript's Leaflet library along with the Mapbox API to create visualizations of earthquake data from the United States Geological Survey (USGS)
+
 ## Purpose
+Utilizing the Leaflet.js Application Programming Interface (API) to populate a geographical map with GeoJSON earthquake data from a URL. Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. In addition, each earthquake will have a popup marker that, when clicked, will show the magnitude of the earthquake and the location of the earthquake.
 
 ## Resources
 
 Data: Tetonic Plate starter code; Major Earthquake Chart Starter Code; 
 
-All Earthquakes GeoJSON file: 
-Earthquakes 4.5+ GeoJSON file: 
+All Earthquakes GeoJSON file within 7 days: 
+Earthquakes 4.5+ GeoJSON file within 7 days: 
 Tetonic Plates GeoJSON Master file:
 
 Applications: VSCode, D3 Javascript, GeoJSON, Mapbox
